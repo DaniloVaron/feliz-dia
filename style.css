@@ -131,8 +131,16 @@ body{
 
 @media (max-width: 720px) {
     .letter{
-
         height: 250px;
+    }
+
+    .envelope{
+        height: 280px;
+    }
+
+    .envelope::after{
+
+        border-bottom: 150px solid var(--envelope-cover);
 
     }
 

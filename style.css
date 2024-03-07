@@ -129,17 +129,11 @@ body{
 }
 
 
-@media (min-width: 720px) {
+@media (max-width: 720px) {
     .letter{
-        position: absolute;
-        right: 20%;
-        bottom: 0;
-        width: 54%;
+
         height: 250px;
-        background-color: var(--primary);
-        transition: all 1s ease-in-out;
-        padding: 10px 10px;
-        box-shadow: 0 0 10px var(--shadow-color);
+
     }
 
     .heart{
